@@ -13,9 +13,7 @@ The libraries used on this project include:
 - Scikit learn – For Machine learning tasks
 - Seaborn and Matplotlib - for visualizing data
 The main steps for this project can be summarized in the flow chart below:
-
-![Workflow](https://github.com/addy-analytics/Medical-Insurance-Cost-Prediction-Using-Machine-Learning/assets/107724453/2245d773-550a-4d2d-aa0a-2d2a67302224)
-
+![workflow](https://github.com/addy-analytics/Medical-Insurance-Cost-Prediction-Using-Machine-Learning/assets/107724453/378bc355-ad36-4eca-b58b-7d87b2294ab6)
 
 ## Final Results
 XGBoost stands out as the most effective regression model, surpassing others like K-Nearest Neighbors, which is deemed less optimal. Individuals have the opportunity to compute their insurance expenses employing the superior XGBoost model. Future enhancements could involve the development of a web application utilizing the XGBoost or Gradient Boosting algorithm, along with the utilization of a more extensive dataset compared to the one employed in the current study. This could further refine and advance the predictive capabilities of the model.
