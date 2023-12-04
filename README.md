@@ -2,24 +2,20 @@
 
 This repository focuses on the application of machine learning to predict the costs of medical insurance, utilizing a dataset sourced from [Kaggle](https://www.kaggle.com/mirichoi0218/insurance?select=insurance.csv). The dataset incorporates features derived from individual and local health data, enabling the creation of predictive models to estimate insurance amounts across different categories of individuals. The dataset serves as a valuable resource for training machine learning models aimed at forecasting medical insurance costs based on diverse factors.
 
-## Table of Content
+## Introduction
+Medical insurance costs are critical considerations in healthcare planning and financial decision-making. Understanding the factors influencing these costs is essential for both insurers and policyholders. Machine learning provides a powerful toolset to analyze and predict medical insurance expenses based on diverse variables. In this context, predictive modeling techniques such as K-Nearest Neighbors (KNN), XGBoost, Linear Regression, and Random Forest Regression have emerged as effective means to estimate and forecast medical insurance costs. By leveraging patterns and relationships within datasets derived from individual and local health information, these models contribute to more accurate predictions, assisting in risk assessment, resource allocation, and overall decision-making within the healthcare insurance domain. This repository explores the application of these machine learning models to enhance our understanding and prediction of medical insurance costs, utilizing a dataset sourced from Kaggle that encapsulates various features relevant to insurance forecasting
 
-#### PART ONE
-1. Importing libraries and dataset
-2. Data Exploration
-    - Dealing with missing data
-    - Visualizing Relationship between Variables
-  
-#### PART TWO
-3. Data Preprocessing
-    - Encoding categorical variables
-    - Splitting the dataset into train and test set
-    - Feature Scaling 
-4. Bulding A Model
-    - Experiment with various machine learning algorithms 
-    - Utilize cross-validation techniques to assess model performance
-#### PART THREE
-5. Test the Model
-    - Validation and Interpretation
-    - Validate the model on a separate test set.
-6. Conclusion
+## Methodology
+Python Libraries
+The libraries used on this project include:
+- Pandas – For storing and manipulating structured data. Pandas functionality is built on NumPy
+- Numpy – For multi-dimensional array, matrix data structures and, performing mathematical operations
+- Scikit learn – For Machine learning tasks
+- Seaborn and Matplotlib - for visualizing data
+The main steps for this project can be summarized in the flow chart below:
+
+![Workflow](https://github.com/addy-analytics/Medical-Insurance-Cost-Prediction-Using-Machine-Learning/assets/107724453/2245d773-550a-4d2d-aa0a-2d2a67302224)
+
+
+## Final Results
+XGBoost stands out as the most effective regression model, surpassing others like K-Nearest Neighbors, which is deemed less optimal. Individuals have the opportunity to compute their insurance expenses employing the superior XGBoost model. Future enhancements could involve the development of a web application utilizing the XGBoost or Gradient Boosting algorithm, along with the utilization of a more extensive dataset compared to the one employed in the current study. This could further refine and advance the predictive capabilities of the model.
