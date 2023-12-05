@@ -1,4 +1,4 @@
-## Medical Insurance Cost Prediction Using Machine Learning
+## Medical Insurance Premium Prediction Using Machine Learning
 
 This repository focuses on the application of machine learning to predict the costs of medical insurance, utilizing a dataset sourced from [Kaggle](https://www.kaggle.com/mirichoi0218/insurance?select=insurance.csv). The dataset incorporates features derived from individual and local health data, enabling the creation of predictive models to estimate insurance amounts across different categories of individuals. The dataset serves as a valuable resource for training machine learning models aimed at forecasting medical insurance costs based on diverse factors.
 
