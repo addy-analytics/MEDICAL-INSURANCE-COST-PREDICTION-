@@ -7,7 +7,7 @@ Medical insurance costs are critical considerations in healthcare planning and f
 
 ## Methodology
 Python Libraries
-The libraries used on this project include:
+The libraries used on this [project](https://github.com/addy-analytics/Medical-Insurance-Cost-Prediction-Using-Machine-Learning/blob/main/Medical_insurance_premium_prediction.ipynb) include:
 - Pandas – For storing and manipulating structured data. Pandas functionality is built on NumPy
 - Numpy – For multi-dimensional array, matrix data structures and, performing mathematical operations
 - Scikit learn – For Machine learning tasks
